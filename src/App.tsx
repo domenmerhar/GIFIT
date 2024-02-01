@@ -1,7 +1,12 @@
 import "./App.css";
+import { LightningBolt } from "./Components/Icons/LightningBolt";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <LightningBolt />
+    </>
+  );
 }
 
 export default App;
