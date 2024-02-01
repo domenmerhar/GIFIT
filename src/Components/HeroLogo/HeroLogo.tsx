@@ -8,11 +8,11 @@ type Props = {
 
 export const HeroLogo: FC<Props> = ({ children }) => {
   return (
-    <>
-      <h1 className={classes.logo}>
+    <nav className={classes.logo}>
+      <h1>
         GIT<span>IT</span>
       </h1>
       {children}
-    </>
+    </nav>
   );
 };
