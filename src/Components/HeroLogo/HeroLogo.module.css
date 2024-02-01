@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-size-logo);
+  letter-spacing: 5px;
+}
+
+.logo h1 {
+  margin: var(--spacing-xl) 0;
+}
+
+.logo span {
+  color: var(--orange-9);
+}

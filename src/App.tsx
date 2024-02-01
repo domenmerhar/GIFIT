@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <HeroLogo>
-        <LightningBolt />
+        <LightningBolt width={96} />
       </HeroLogo>
     </>
   );
