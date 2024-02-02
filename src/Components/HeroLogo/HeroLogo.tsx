@@ -9,9 +9,8 @@ type Props = {
 export const HeroLogo: FC<Props> = ({ children }) => {
   return (
     <nav className={classes.logo}>
-      <h1>
-        GIT<span>IT</span>
-      </h1>
+      <h1>GIF</h1>
+      <span>IT</span>
       {children}
     </nav>
   );

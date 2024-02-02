@@ -19,7 +19,7 @@ export const LightningBolt: FC<Props> = ({
       fill={fill}
       viewBox="0 0 24 24"
       strokeWidth={strokeWidth}
-      stroke="currentColor"
+      stroke={stroke}
       width={width}
       color={stroke}
     >

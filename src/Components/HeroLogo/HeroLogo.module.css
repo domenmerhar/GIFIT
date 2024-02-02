@@ -6,10 +6,19 @@
   letter-spacing: 5px;
 }
 
+.logo * {
+  display: inline-block;
+}
+
 .logo h1 {
   margin: var(--spacing-xl) 0;
 }
 
 .logo span {
   color: var(--orange-9);
+  font-size: 9.6rem;
+  transform: skew(-5deg);
+  display: inline-block;
+  font-weight: 800;
+  transform: skew(-5deg);
 }
