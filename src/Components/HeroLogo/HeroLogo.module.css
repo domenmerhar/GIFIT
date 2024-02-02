@@ -4,6 +4,7 @@
   align-items: center;
   font-size: var(--font-size-logo);
   letter-spacing: 5px;
+  margin-top: var(--spacing-xl);
 }
 
 .logo * {
@@ -11,7 +12,7 @@
 }
 
 .logo h1 {
-  margin: var(--spacing-xl) 0;
+  margin: var(--spacing-xs) 0;
 }
 
 .logo span {
@@ -21,4 +22,5 @@
   display: inline-block;
   font-weight: 800;
   transform: skew(-5deg);
+  letter-spacing: 0;
 }

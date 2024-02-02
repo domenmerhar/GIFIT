@@ -35,17 +35,17 @@
   --gray-9: #666666;
   --gray-10: #333333;
 
-  --spacing-xs: 4px;
-  --spacing-sm: 8px;
-  --spacing-md: 16px;
-  --spacing-lg: 24px;
-  --spacing-xl: 32px;
+  --spacing-xs: 0.4rem;
+  --spacing-sm: 0.8rem;
+  --spacing-md: 1.6rem;
+  --spacing-lg: 2.4rem;
+  --spacing-xl: 3.2rem;
 
-  --font-size-xs: 12px;
-  --font-size-sm: 14px;
-  --font-size-md: 16px;
-  --font-size-lg: 18px;
-  --font-size-xl: 24px;
+  --font-size-xs: 1.2rem;
+  --font-size-sm: 1.4rem;
+  --font-size-md: 1.6rem;
+  --font-size-lg: 1.8rem;
+  --font-size-xl: 2.4rem;
 
   --font-size-logo: 5.2rem;
   --font-size-logo-big: 6rem;
@@ -84,4 +84,12 @@ body {
   background-color: white;
   width: 120rem;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
 }
