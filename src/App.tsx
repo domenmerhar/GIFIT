@@ -12,16 +12,13 @@ function App() {
       </HeroLogo>
       <h2>Transforming into GIFs has never been easier!</h2>
 
-      <ul>
+      <ul style={{ padding: 0 }}>
         <Instruction>
           <AcademicHat width={40} />
-          <span>
-            Click the 'Upload' button to select the video you want to transform
-            into a GIF.
-          </span>
+          <span>Click the 'Upload' button and select a video.</span>
         </Instruction>
         <Instruction>
-          <span>Then simply GIFIT and let the magic unfold.</span>
+          <span>GIFIT and let the magic unfold.</span>
         </Instruction>
       </ul>
     </>

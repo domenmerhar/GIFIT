@@ -1,2 +1,8 @@
 .instruction {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size-lg);
+  justify-content: center;
+  line-height: var(--line-height-xl);
+  text-align: center;
 }
