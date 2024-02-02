@@ -1,0 +1,11 @@
+.GIFIT {
+  color: black;
+  font-weight: 800;
+  vertical-align: middle;
+}
+
+.GIFIT span {
+  color: var(--orange-9);
+  display: inline-block;
+  transform: skew(-5deg);
+}

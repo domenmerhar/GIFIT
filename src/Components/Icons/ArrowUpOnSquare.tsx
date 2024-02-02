@@ -7,7 +7,7 @@ type Props = {
   fill?: string;
 };
 
-export const AcademicHat: FC<Props> = ({
+export const ArrowUpOnSquare: FC<Props> = ({
   width = 32,
   stroke = "black",
   strokeWidth = 1.5,

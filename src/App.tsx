@@ -2,7 +2,8 @@ import "./App.css";
 import { LightningBolt } from "./Components/Icons/LightningBolt";
 import { HeroLogo } from "./Components/HeroLogo/HeroLogo";
 import { Instruction } from "./Components/Instruction/Instruction";
-import { AcademicHat } from "./Components/Icons/AcademicHat";
+import { ArrowUpOnSquare } from "./Components/Icons/ArrowUpOnSquare";
+import { GIFITSpan } from "./Components/GIFITSpan/GIFITSpan";
 
 function App() {
   return (
@@ -14,11 +15,14 @@ function App() {
 
       <ul style={{ padding: 0 }}>
         <Instruction>
-          <AcademicHat width={40} />
+          <ArrowUpOnSquare width={32} />
           <span>Click the 'Upload' button and select a video.</span>
         </Instruction>
         <Instruction>
-          <span>GIFIT and let the magic unfold.</span>
+          <LightningBolt width={32} />
+          <span>
+            <GIFITSpan fontSize={22} /> and let the magic unfold.
+          </span>
         </Instruction>
       </ul>
     </>
