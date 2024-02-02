@@ -4,6 +4,7 @@ import { HeroLogo } from "./Components/HeroLogo/HeroLogo";
 import { Instruction } from "./Components/Instruction/Instruction";
 import { ArrowUpOnSquare } from "./Components/Icons/ArrowUpOnSquare";
 import { GIFITSpan } from "./Components/GIFITSpan/GIFITSpan";
+import { GIFConverter } from "./Components/GIFConverter/GIFConverter";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           </span>
         </Instruction>
       </ul>
+      <GIFConverter />
     </>
   );
 }
